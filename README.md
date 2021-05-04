@@ -12,11 +12,11 @@ deste dataset nas seguintes rotas:
 - **/people/{cpf_without_punctuation}**: Retorna os dados de uma única pessoa em formato json
 - **/blood-type/stats**: retorna a distribuição absoluta de grupos sanguíneos: {"B-": 20, "O+": 10...}
 - **/peoples**: Listar os nomes de todas as pessoas no dataset em ordem alfabética
-- **/peoples/search?q=query**: Busca pessoas por nome ou por parte do nome (case insesitive)
+- **/peoples/search?q=query**: Busca pessoas por nome ou por parte do nome (case insensitive)
 
 ## Tecnologias
 Você é livre para usar quaisquer frameworks que julgar necessário para resolver o problema proposto.
-Também poderá persistir os dados da forma que julgar mais conveniente: (arquivo, banco de dados relacional ou não relacional, etc...).
+Também poderá persistir os dados da forma que julgar mais conveniente.
 
 Enfim, você é livre para escolher as tecnologias que vai usar neste desafio, mas esteja preparado(a) para justificar suas escolhas.
 
